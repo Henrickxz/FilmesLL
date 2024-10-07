@@ -56,7 +56,8 @@ class FilmesController extends Controller
         return view('',['registrosFilmes'=>$todosRegistros]);
     }
 
-    public function mostrarAgendaId(Agenda $id){
+    //motrar Filme por id
+    public function ShowFilmeId(Filmes $id){
         return view('',['registrosFilmes'=>$id]);
     }
 }
